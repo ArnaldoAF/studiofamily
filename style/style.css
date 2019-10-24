@@ -7,3 +7,13 @@
     background-size:  cover;
     background-color: #999;
 }
+
+.salon-bg
+{
+    background-image: url("../images/salon01-1.jpg") !important; 
+    background-position: right right;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+}
