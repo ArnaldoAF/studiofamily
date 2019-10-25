@@ -3,17 +3,53 @@
     background-image: url("../images/baber01.jpg") !important; 
     background-position: center center;
     background-repeat:  no-repeat;
-    background-attachment: fixed;
+ 
     background-size:  cover;
-    background-color: #999;
+    
+    transition: all 0.5s ease;
+}
+
+.barber-bg:hover
+{
+    transform: scale(1.05);
 }
 
 .salon-bg
 {
     background-image: url("../images/salon01-1.jpg") !important; 
-    background-position: right right;
+    background-position: center center;
     background-repeat:  no-repeat;
-    background-attachment: fixed;
     background-size:  cover;
-    background-color: #999;
+    transition: all 0.5s ease;
+}
+
+.salon-bg:hover
+{
+    transform: scale(1.05);
+}
+
+.hero-body
+{
+    overflow: hidden; 
+}
+
+.bg-transp
+{
+    opacity: 0.9;
+
+}
+
+.titulo-1
+{
+    padding: 5% 0 !important
+}
+
+
+
+#title1
+{
+    border-bottom: 2px black solid;
+    margin:  5px 0;
+    padding: 0%;
+
 }
