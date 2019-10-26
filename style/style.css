@@ -9,9 +9,9 @@
     transition: all 0.5s ease;
 }
 
-.barber-bg:hover
+.barber-bg:hover, .salon-bg:hover
 {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .salon-bg
@@ -23,10 +23,7 @@
     transition: all 0.5s ease;
 }
 
-.salon-bg:hover
-{
-    transform: scale(1.05);
-}
+
 
 .hero-body
 {
@@ -52,4 +49,14 @@
     margin:  5px 0;
     padding: 0%;
 
+}
+
+html
+{
+    overflow: hidden !important;
+}
+
+.button1
+{
+    margin-top:1% !important;
 }
