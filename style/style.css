@@ -23,8 +23,6 @@
     transition: all 0.5s ease;
 }
 
-
-
 .hero-body
 {
     overflow: hidden; 
@@ -40,8 +38,6 @@
 {
     padding: 5% 0 !important
 }
-
-
 
 #title1
 {
@@ -60,3 +56,18 @@ html
 {
     margin-top:1% !important;
 }
+
+@media only screen and (max-width: 600px) {
+
+
+    #barber-hero, #saloon-hero
+    {
+        min-height: 50vh !important;
+        max-width: 100vh !important;
+    }
+
+    #hero-body
+    {
+        display: block;
+    }
+} 
