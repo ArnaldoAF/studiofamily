@@ -11,59 +11,86 @@
 </head>
 
 <body>
+    <nav class="navbar is-dark " role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                STUDIO FAMILY
+            </a>
 
-    <section class=" hero is-fullheight column  barber-bg is-full-mobile">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#servicos">
+                    SERVIÇOS
+                </a>
+                <a class="navbar-item" href="#trabalhos">
+                    NOSSOS TRABALHOS
+                </a>
+                <a class="navbar-item" href="#sobre">
+                    SOBRE
+                </a>
+                <a class="navbar-item" href="#chegar">
+                    COMO CHEGAR
+                </a>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <section class=" hero is-fullheight-with-navbar column  barber-bg is-full-mobile" id="Home">
         <div class="hero-body">
             <div class="container has-text-centered  has-background-white bg-transp titulo-1">
                 <h1 class="title is-size-4-mobile">
-                    BARBEIRO
+                    STUDIO FAMILY - CABELEREIRO
                 </h1>
-                <a class="subtitle button is-link is-outlined button1" href="https://bulma.io">
-                    <span>ACESSE</span>
-                    <span class="icon is-small">
-                        <i class="fas fa-arrow-right"></i>
-                    </span>
-                </a>
+                
             </div>
         </div>
 
     </section>
 
 
-    <section class="section">
+    <section class="section" id="servicos">
         <h1 class="title">SERVIÇOS</h1>
-        <div class="columns">
-            <div class="card column">
+        <div class="columns is-multiline">
+            <div class="card column is-4">
                 <div class="card-content">
                     <p class="title">
-                        BARBEIRO
+                        CABELO
                     </p>
                 </div>
             </div>
-            <div class="card column ">
+            <div class="card column is-4">
                 <div class="card-content">
                     <p class="title">
-                        BARBEIRO
+                        BARBA
                     </p>
                 </div>
             </div>
-            <div class="card column">
+            <div class="card column is-4">
                 <div class="card-content">
                     <p class="title">
-                        BARBEIRO
+                        SOMBRACELHA
                     </p>
                 </div>
             </div>
-            <div class="card column">
+            <div class="card column is-12">
                 <div class="card-content">
                     <p class="title">
-                        BARBEIRO
+                        TATOO
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section">
+    <section class="section" id="trabalhos">
         <h1 class="title">NOSSOS TRABALHOS</h1>
         <div class="columns">
             <figure class="image column ">
@@ -74,8 +101,36 @@
             </figure>
         </div>
     </section>
+    <section class="section is-paddingless" id="sobre">
+        <div class="columns">
+            <figure class="image column ">
+                <img src="../images/baber01.jpg">
+            </figure>
+            <section class=" column ">
+                <h1 class="title">SOBRE O STUDIO FAMILY</h1>
 
+            </section>
 
+        </div>
+    </section>
+    <section class="section" id="chegar">
+        <h1 class="title">COMO CHEGAR</h1>
+        <div class="columns">
+            <figure class="image column is-9">
+                <img src="../images/pattern1.jpg">
+            </figure>
+            <section class=" column is-3">
+                <h1 class="title">ENDEREÇO</h1>
+
+            </section>
+        </div>
+    </section>
+
+    <footer class="footer has-background-grey-dark">
+        <div class="content has-text-centered has-text-white">
+            <p>@2019 Studio FAmily Todos os Direitos reservados. Feito Por Arnaldo Assis Ferreira</p>
+        </div>
+    </footer>
 
     </div>
 </body>
