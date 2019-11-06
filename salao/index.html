@@ -5,32 +5,139 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Studio Family</title>
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/style_saloon.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
-<body class="">
+<body>
+    <nav class="navbar is-danger " role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="../index.html">
+                STUDIO FAMILY
+            </a>
 
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+            </a>
+        </div>
+        
+        <div id="navbarBasicExample" class="navbar-menu nav-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#servicos" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
+                    SERVIÇOS
+                </a>
+                <a class="navbar-item" href="#trabalhos" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
+                    NOSSOS TRABALHOS
+                </a>
+                <a class="navbar-item" href="#sobre" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
+                    SOBRE
+                </a>
+                <a class="navbar-item" href="#chegar" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
+                    COMO CHEGAR
+                </a>
 
+            </div>
 
+        </div>
+    </nav>
 
-    <section class=" hero  is-fullheight column salon-bg  is-full-mobile" >
+    <section class=" hero is-fullheight-with-navbar column  barber-bg is-full-mobile" id="Home">
         <div class="hero-body">
-            <div class="container has-text-centered has-background-white bg-transp titulo-1">
+            <div class="container has-text-centered  has-background-white bg-transp titulo-1">
                 <h1 class="title is-size-4-mobile">
-                    SALÃO DE BELEZA
+                    STUDIO FAMILY - SALÃO DE BELEZA
                 </h1>
-                <h2 class="subtitle button is-link is-outlined button1" href="https://bulma.io">
-                    <span>ACESSE</span>
-                    <span class="icon is-small">
-                        <i class="fas fa-arrow-right"></i>
-                    </span>
-                </h2>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="section" id="servicos">
+        <h1 class="title">SERVIÇOS</h1>
+        <div class="columns is-multiline">
+            <div class="card column is-4">
+                <div class="card-content">
+                    <p class="title">
+                        ALISAMENTO
+                    </p>
+                </div>
+            </div>
+            <div class="card column is-4">
+                <div class="card-content">
+                    <p class="title">
+                        SOMBRACELHA COM RENNA
+                    </p>
+                </div>
+            </div>
+            <div class="card column is-4">
+                <div class="card-content">
+                    <p class="title">
+                        MANICURE/PEDICURE
+                    </p>
+                </div>
+            </div>
+            <div class="card column is-6">
+                <div class="card-content">
+                    <p class="title">
+                        BOTOX
+                    </p>
+                </div>
+            </div>
+            <div class="card column is-6">
+                <div class="card-content">
+                    <p class="title">
+                        SELANTE
+                    </p>
+                </div>
             </div>
         </div>
     </section>
+    <section class="section" id="trabalhos">
+        <h1 class="title">NOSSOS TRABALHOS</h1>
+        <div class="columns">
+            <figure class="image column ">
+                <img src="https://bulma.io/images/placeholders/256x256.png">
+            </figure>
+            <figure class="image column ">
+                <img src="https://bulma.io/images/placeholders/256x256.png">
+            </figure>
+        </div>
+    </section>
+    <section class="section is-paddingless" id="sobre">
+        <div class="columns">
+            <figure class="image column ">
+                <img src="../images/baber01.jpg">
+            </figure>
+            <section class=" column ">
+                <h1 class="title">SOBRE O STUDIO FAMILY</h1>
 
+            </section>
+
+        </div>
+    </section>
+    <section class="section" id="chegar">
+        <h1 class="title">COMO CHEGAR</h1>
+        <div class="columns">
+            <figure class="image column is-9">
+                <img src="../images/pattern1.jpg">
+            </figure>
+            <section class=" column is-3">
+                <h1 class="title">ENDEREÇO</h1>
+
+            </section>
+        </div>
+    </section>
+
+    <footer class="footer has-background-grey-dark">
+        <div class="content has-text-centered has-text-white">
+            <p>@2019 Studio FAmily Todos os Direitos reservados. Feito Por Arnaldo Assis Ferreira</p>
+        </div>
+    </footer>
 
     </div>
 </body>

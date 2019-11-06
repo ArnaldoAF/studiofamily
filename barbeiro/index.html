@@ -13,29 +13,28 @@
 <body>
     <nav class="navbar is-dark " role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
+            <a class="navbar-item" href="../index.html">
                 STUDIO FAMILY
             </a>
 
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
             </a>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu nav-menu">
             <div class="navbar-end">
-                <a class="navbar-item" href="#servicos">
+                <a class="navbar-item" href="#servicos" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
                     SERVIÇOS
                 </a>
-                <a class="navbar-item" href="#trabalhos">
+                <a class="navbar-item" href="#trabalhos" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
                     NOSSOS TRABALHOS
                 </a>
-                <a class="navbar-item" href="#sobre">
+                <a class="navbar-item" href="#sobre" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
                     SOBRE
                 </a>
-                <a class="navbar-item" href="#chegar">
+                <a class="navbar-item" href="#chegar" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
                     COMO CHEGAR
                 </a>
 

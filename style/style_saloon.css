@@ -1,0 +1,41 @@
+.barber-bg
+{
+    background-image: url("../images/salon01.jpg") !important; 
+    background-position: center center;
+    background-repeat:  no-repeat;
+ 
+    background-size:  cover;
+    
+    /*transition: all 0.5s ease;*/
+}
+/*
+.barber-bg:hover, .salon-bg:hover
+{
+    transform: scale(1.02);
+}
+*/
+
+/*
+#nav-toggle-state {
+    display: none;
+  }
+  
+  #nav-toggle-state:checked ~ .nav-menu {
+    display: block;
+  }
+*/
+
+.bg-transp
+{
+    opacity: 0.9;
+
+}
+
+.titulo-1
+{
+    padding: 5% 0 !important
+}
+
+
+
+
