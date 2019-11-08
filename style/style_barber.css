@@ -30,5 +30,7 @@
 }
 
 
-
+.is-horizontal-center {
+    justify-content: center;
+  }
 
