@@ -1,3 +1,8 @@
+body
+{
+    overflow-x: hidden;
+}
+
 .barber-bg
 {
     background-image: url("../images/baber01.jpg") !important; 
@@ -15,6 +20,10 @@
 }
 
 
+.footer, .sobre-text
+{
+    background-color: #363636 !important;
+}
 
 
 
@@ -40,14 +49,19 @@ div>img
 {
     margin-left: auto;
     margin-right: auto;
-    max-height: 75vh !important;
+    max-height: 70vh !important;
 
+}
+
+.has-text-success
+{
+    display: inline !important;
 }
 
 .slider
 {
     display: flex;
-    max-height: 75vh;
+    max-height: 70vh;
 }
 
 .slick-prev, .slick-arrow
@@ -59,4 +73,22 @@ div>img
     color: black !important;
     /*background-color: black !important;*/
     /*font-size: xxx-large !important;*/
+}
+
+.slick-next::before, .slick-prev::before
+{
+    display: none;
+}
+
+.button.is-focused:not(:active), .button:focus:not(:active)
+{
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .slick-prev, .slick-next
+    {
+        display:none !important;
+    }
 }
