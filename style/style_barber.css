@@ -53,6 +53,26 @@ div>img
 
 }
 
+.media-content>.image
+{
+    overflow:hidden;
+}
+
+#cutting-icon
+{
+    margin-left: 52px;
+}
+
+#sobre
+{
+    padding:2rem !important;
+}
+
+#chegar-titulo
+{
+    margin-bottom: 3.5rem !important;
+}
+
 .has-text-success
 {
     display: inline !important;
@@ -90,5 +110,10 @@ div>img
     .slick-prev, .slick-next
     {
         display:none !important;
+    }
+
+    #cutting-icon
+    {
+        margin: auto;
     }
 }
