@@ -1,6 +1,6 @@
 .barber-bg
 {
-    background-image: url("../images/baber01.jpg") !important; 
+    background-image: url("../images/main/baber01.jpg") !important; 
     background-position: center center;
     background-repeat:  no-repeat;
     background-size:  cover;
@@ -14,7 +14,7 @@
 
 .salon-bg
 {
-    background-image: url("../images/salon01-1.jpg") !important; 
+    background-image: url("../images/main/salon01.jpg") !important; 
     background-position: center center;
     background-repeat:  no-repeat;
     background-size:  cover;

@@ -5,7 +5,7 @@ body
 
 .barber-bg
 {
-    background-image: url("../images/baber01.jpg") !important; 
+    background-image: url("../images/main/baber01.jpg") !important; 
     background-position: center center;
     background-repeat:  no-repeat;
  
@@ -61,6 +61,12 @@ div>img
 #cutting-icon
 {
     margin-left: 52px;
+}
+
+#trabalhos
+{
+    margin: auto;
+    max-width: 500px;
 }
 
 #sobre
