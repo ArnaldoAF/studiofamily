@@ -1,3 +1,8 @@
+body
+{
+    overflow-x: hidden;
+}
+
 .barber-bg
 {
     background-image: url("../images/main/salon01.jpg") !important; 
@@ -6,24 +11,19 @@
  
     background-size:  cover;
     
-    /*transition: all 0.5s ease;*/
+    transition: all 0.5s ease;
 }
-/*
+
 .barber-bg:hover, .salon-bg:hover
 {
     transform: scale(1.02);
 }
-*/
 
-/*
-#nav-toggle-state {
-    display: none;
-  }
-  
-  #nav-toggle-state:checked ~ .nav-menu {
-    display: block;
-  }
-*/
+
+.footer, .sobre-text
+{
+    background-color: #f14668 !important;
+}
 
 .bg-transp
 {
@@ -36,6 +36,91 @@
     padding: 5% 0 !important
 }
 
+.is-horizontal-center 
+{
+    justify-content: center;
+}
 
+div>img
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 70vh !important;
 
+}
 
+.media-content>.image
+{
+    overflow:hidden;
+}
+/*
+#cutting-icon
+{
+    margin-left: 52px;
+}
+*/
+#trabalhos
+{
+    margin: auto;
+    max-width: 500px;
+}
+
+#sobre
+{
+    padding:2rem !important;
+}
+
+#chegar-titulo
+{
+    margin-bottom: 3.5rem !important;
+}
+
+.card
+{
+    height: 100%;
+}
+
+.has-text-success
+{
+    display: inline !important;
+}
+
+.slider
+{
+    display: flex;
+    max-height: 70vh;
+}
+
+.slick-prev, .slick-arrow
+{
+    z-index: 99 !important;
+    width: auto !important;
+    height: auto !important;
+    padding: auto !important;
+    color: black !important;
+    /*background-color: black !important;*/
+    /*font-size: xxx-large !important;*/
+}
+
+.slick-next::before, .slick-prev::before
+{
+    display: none;
+}
+
+.button.is-focused:not(:active), .button:focus:not(:active)
+{
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .slick-prev, .slick-next
+    {
+        display:none !important;
+    }
+
+    #cutting-icon
+    {
+        margin: auto;
+    }
+}
