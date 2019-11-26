@@ -28,19 +28,19 @@
         </div>
         <div id="navbarBasicExample" class="navbar-menu nav-menu">
             <div class="navbar-end">
-                <a class="navbar-item" href="#servicos"
+                <a class="navbar-item nav-roll" href="#servicos"
                     onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
                     SERVIÇOS
                 </a>
-                <a class="navbar-item" href="#trabalhos"
+                <a class="navbar-item nav-roll" href="#trabalhos"
                     onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
                     NOSSOS TRABALHOS
                 </a>
-                <a class="navbar-item" href="#sobre"
+                <a class="navbar-item nav-roll" href="#sobre"
                     onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
                     SOBRE
                 </a>
-                <a class="navbar-item" href="#chegar"
+                <a class="navbar-item nav-roll" href="#chegar"
                     onclick="document.querySelector('.nav-menu').classList.toggle('is-active');">
                     COMO CHEGAR
                 </a>
@@ -154,7 +154,7 @@
 
     <section class="section" id="trabalhos">
         <h1 class="title has-text-centered has-text-weight-light is-size-1">NOSSOS TRABALHOS</h1>
-        <div class="section">
+        <div class="section" id="galery-section">
             <section class="center slider">
                 <div>
                     <img src="../images/barbeiro/galery/hair1.jpg">
@@ -303,7 +303,7 @@
         });
     </script>
     <script type="text/javascript">
-    $(".navbar-item").click(function(e) {
+    $(".nav-roll").click(function(e) {
         e.preventDefault();
         var o = $(this).attr("href");
         $('html,body').animate({
@@ -311,15 +311,6 @@
         },1000)
     });
     </script>
-    <script type="text/javascript">
-        $(".navbar-item").click(function(e) {
-            e.preventDefault();
-            var o = $(this).attr("href");
-            $('html,body').animate({
-                scrollTop: ($(o).offset().top) - $(".head-target").height()
-            },1000)
-        });
-        </script>
 </body>
 <!--
 Icon credits
