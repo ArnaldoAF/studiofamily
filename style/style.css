@@ -26,11 +26,15 @@
     overflow: hidden; 
 }
 
-.bg-transp
+.bg-transp-b
 {
-    opacity: 0.9;
+    background: rgba(54,54,54, 0.9) !important;
 }
 
+.bg-transp-s
+{
+    background: rgba(241,70,104, 0.9) !important;
+}
 .titulo-1
 {
     padding: 5% 0 !important
@@ -50,6 +54,13 @@
     padding: 0%;
 
 }
+
+#logo-hero
+{
+    width: 40%;
+    height: 40%;
+}
+
 
 html
 {
@@ -74,5 +85,10 @@ html
     #hero-body
     {
         display: block;
+    }
+
+    #logo-hero
+    {
+        display:none;
     }
 } 
