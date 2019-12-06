@@ -72,6 +72,24 @@ html
     margin-top:1% !important;
 }
 
+#brand
+{
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    max-width: 50% !important;
+    max-height: 50% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+
+#brand-image
+{
+    max-height: 100% !important;
+}
+
 @media only screen and (max-width: 600px) {
 
 
